@@ -1,0 +1,25 @@
+{
+  "name": "expedia-price-checker",
+  "version": "0.0.1",
+  "description": "Presses the price guarantee button at 30 min intervals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewnaeve/expedia-price-guarantee-checker.git"
+  },
+  "author": "Andrew Naeve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewnaeve/expedia-price-guarantee-checker/issues"
+  },
+  "homepage": "https://github.com/andrewnaeve/expedia-price-guarantee-checker#readme",
+  "dependencies": {
+    "esm": "^3.0.84",
+    "nightmare": "^3.0.1",
+    "node-schedule": "^1.3.0"
+  }
+}
